@@ -94,7 +94,7 @@ button {
 }
 
 .footer {
-  /* position: absolute; */
+  
   bottom: 0;
   width: 100%;
   background-color: #ffc107;
@@ -127,4 +127,15 @@ h2 {
 
 .editUsers {
   background-color: rgba(253, 255, 69, 1);
+}
+
+.footerUserList{
+position: absolute;
+bottom: 0;
+  width: 100%;
+  background-color: #ffc107;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }

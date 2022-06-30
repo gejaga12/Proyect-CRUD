@@ -25,7 +25,7 @@ session_start();
 <body>
     <header>
         <div class="topnav">
-          
+
             <a href="#">Editar</a>
             <a href="partials/logout.php">Cerrar Sesion</a>
             <a href="index.php" class="split">Api</a>
@@ -40,7 +40,7 @@ session_start();
 
                 <div id="top-header">
 
-                 <h5> BIENVENIDO: <?=$_SESSION['user_id'];?> </h5>
+                    <h5> BIENVENIDO: <?= $_SESSION['user_id']; ?> </h5>
 
                 </div>
 
@@ -93,11 +93,14 @@ session_start();
                     </div>
                 </div>
             </div>
-            <footer>
-                <div class="footer">
-                    <h7>Ⓒ 2022 - Proyecto Login. Desarrollo web by New Team Delevopers.</h7>
-                </div>
-            </footer>
+        </div>
+    </div>
+    <footer>
+        <div class="footerUserList">
+            <h7>Ⓒ 2022 - Proyecto Login. Desarrollo web by New Team Delevopers.</h7>
+        </div>
+    </footer>
 </body>
+
 
 </html>
